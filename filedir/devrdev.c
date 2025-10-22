@@ -1,3 +1,4 @@
+#include <sys/sysmacros.h>
 #include "apue.h"
 #ifdef SOLARIS
 #include <sys/mkdev.h>
