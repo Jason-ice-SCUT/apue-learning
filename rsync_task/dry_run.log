@@ -1,0 +1,14 @@
+=== DRY RUN MODE ===
+Checking: test_source//config.conf -> test_dest//config.conf
+File already synchronized: test_source//config.conf
+Checking: test_source//file2.txt -> test_dest//file2.txt
+File already synchronized: test_source//file2.txt
+Checking: test_source//file1.txt -> test_dest//file1.txt
+File already synchronized: test_source//file1.txt
+Checking: test_source//subdir1/file3.txt -> test_dest//subdir1/file3.txt
+File already synchronized: test_source//subdir1/file3.txt
+Checking: test_source//subdir2/file4.txt -> test_dest//subdir2/file4.txt
+File already synchronized: test_source//subdir2/file4.txt
+Checking: test_source//new_file.txt -> test_dest//new_file.txt
+DRY-RUN: Would sync test_source//new_file.txt -> test_dest//new_file.txt
+Synchronization completed successfully
